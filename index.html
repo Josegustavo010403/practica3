@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="form">
+    <h1>FORMULARIO DE INSCRIPCION</h1>
+    <br>
+    <form action="#">
+            <div>
+                <label for="usuario">Nombre:</label>
+                <input id="usuario" type="text" name="usuario" placeholder="Ingrese su nombre">
+            </div><br>
+            <div>
+                <label for="email">Direccion email:</label>
+                <input id="email" type="text" name="email" placeholder="Ingrese su correo">
+            </div><br>
+    </form>
+    <div>
+        <label for="ciudad">Especialidad:</label>
+        <select name="ciudad">
+            <option value="PR">Programacion</option>
+            <option value="CO">Construcion</option>
+            <option value="El">Electronica</option>
+            <option value="LO">Logistica</option>
+            <option value="AL">Alimentos</option>
+            
+          
+        </select>
+    </div><br>
+    <div>Talleres extraescolares <br>
+        <input type="checkbox" id="futbol" >
+        <label for="futbol">Futbol</label><br>
+        <input type="checkbox" id="escolta" >
+        <label for="Escoltaa">Escolta</label><br>
+        <input type="checkbox" id="musica" >
+        <label for="musica">Banda de Musica</label><br>
+        <input type="checkbox" id="dibujo" >
+        <label for="dibujo">Dibujo y pintura</label><br>
+        <input type="checkbox" id="ajedrez" >
+        <label for="ajedrez">Ajedrez</label><br>
+        <input type="checkbox" id="pc" >
+        <label for="pc">Proteccion civil</label><br>
+
+
+    </div><br>
+    <div>Sexo: <br>
+        <input type="radio" id="masculino" >
+        <label for="masculino">Masculino</label><br>
+        <input type="radio" id="femenino" >
+        <label for="femenino">Femenino</label><br>
+        <input type="radio" id="PND" >
+        <label for="femenino">Prefiero no decirlo</label><br>
+    </div><br>
+        <input type="submit" name="submit" value="Enviar informacion">
+        <input type="reset" name="reset" value="Limpiar formulario">
+    </div><br>
+</section>
+</body>
+</html>
